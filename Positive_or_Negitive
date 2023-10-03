@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Voting {
+public class Positive_or_Negitive {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter your num :");
