@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class clg {
+    public static void main(String[] args) {
+        System.out.println("Enter your department in Capital: ");
+        Scanner dep = new Scanner(System.in);
+        String department = dep.nextLine();
+        if (department.equals("CSE") || department.equals("AIDS") || department.equals("AIML") ||
+            department.equals("ECE") || department.equals("CIVIL") || department.equals("MECH")) {
+            System.out.println("SSE Block");
+        } else if (department.equals("ARTS")) {
+            System.out.println("SCLAS Block");
+        } else if (department.equals("ARCHITECTURE")) {
+            System.out.println("SCAD Block");
+        } else if (department.equals("MEDICAL")) {
+            System.out.println("HOSPITAL Block");
+        } else if (department.equals("LAW")) {
+            System.out.println("SSL Block");
+        } else if (department.equals("MANAGMENT")) {
+            System.out.println("SSM Block");
+        } else {
+            System.out.println("Please Enter correct Department");
+        }
+    }
+}
