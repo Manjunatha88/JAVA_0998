@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Voting {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter your num :");
+		int age = scan.nextInt();
+		if(age>=0){
+			System.out.println("It is a Positive number");
+		}else
+		    System.out.println("It is a Negitive number");
+	}
+}
